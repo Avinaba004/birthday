@@ -6,7 +6,7 @@ const HomePage = () => {
     if (e.target.innerText === "ONLY FOR SARA (Password Required)") {
       const password = prompt("Please enter the password:");
       // Check if the password is correct
-      if (password === "sara") {
+      if (password === "SmileAndUnlock") {
         // Redirect to the next page
         window.location.href = "/next-page";
       } else {
